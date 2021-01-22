@@ -9,26 +9,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: 'Saad Pasta',
-  title: "Hi all, I'm Saad",
+  username: 'Tobias Scott',
+  title: "Hi all, I'm Tobias",
   subTitle: emoji(
-    'A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.'
+    'A passionate Full Stack Software Developer 🚀 who loves building things that live on the internet and is eager to study the building blocks of the world, and enjoy rearranging them to build something even better.'
   ),
   resumeLink:
-    'https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing',
+    'https://docs.google.com/document/d/1MbFTGMyZm-akvGDLsKinSs1UcdnwFb6ewnmsmx2FRQQ/edit?usp=sharing',
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: 'https://github.com/saadpasta',
-  linkedin: 'https://www.linkedin.com/in/saadpasta/',
-  gmail: 'saadpasta70@gmail.com',
-  gitlab: 'https://gitlab.com/saadpasta',
-  facebook: 'https://www.facebook.com/saad.pasta7',
-  medium: 'https://medium.com/@saadpasta',
-  stackoverflow: 'https://stackoverflow.com/users/10422806/saad-pasta',
+  github: 'https://github.com/Tobias2023',
+  linkedin: 'https://www.linkedin.com/in/tobias-scott-he-him-b3572751/',
+  gmail: 'tobiascodes12@gmail.com',
+  // gitlab: 'https://gitlab.com',
+  // facebook: 'https://www.facebook.com',
+  // medium: 'https://medium.com/,
+  // stackoverflow: 'https://stackoverflow.com/',
   // Instagram and Twitter are also supported in the links!
   display: true, // Set true to display this section, defaults to false
 };
@@ -114,25 +114,18 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: 'Harvard University',
-      logo: require('./assets/images/harvardLogo.png'),
-      subHeader: 'Master of Science in Computer Science',
-      duration: 'September 2017 - April 2019',
-      desc: 'Participated in the research of XXX and published 3 papers.',
+      schoolName: 'Southern New Hampshire University',
+      logo: require('./assets/images/SNHU_logo.png'),
+      subHeader: 'Associates of Science in Information Technology',
+      duration: 'September 2016 - April 2018',
+      desc: 'Some of my coursework included:',
       descBullets: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        'Computer Networks',
+        'Web technologies (Front End | Backend)',
+        'Object oriented design',
+        'Mathematics (statistics)',
       ],
-    },
-    {
-      schoolName: 'Stanford University',
-      logo: require('./assets/images/stanfordLogo.png'),
-      subHeader: 'Bachelor of Science in Computer Science',
-      duration: 'September 2013 - April 2017',
-      desc:
-        'Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...',
-      descBullets: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit'],
-    },
+    }
   ],
 };
 
@@ -164,32 +157,54 @@ const workExperiences = {
   experience: [
     {
       role: 'Software Engineer',
-      company: 'Facebook',
-      companylogo: require('./assets/images/facebookLogo.png'),
-      date: 'June 2018 – Present',
+      company: 'BreakFreeNomad',
+      companylogo: require('./assets/images/bfnLogo.jpg'),
+      date: 'Oct 2018 – Nov 2020',
       desc:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        'An independently run blog that provides tips to work at home or anywhere right from your favorite devices.',
       descBullets: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        'Developed/Maintained; Development | Staging | Production code.',
+        'Used tools and services such as TinyMCE for WYSIWYG editing, PythonAnywhere for easy deployment, and Django-allauth for authentication',
+      ],
+    },
+    {
+      role: 'Social Media Evaluator',
+      company: 'Appen',
+      companylogo: require('./assets/images/appenLogo.png'),
+      date: 'Feb 2019 – Present',
+      desc:
+        'Appen provides or improves data used for the development of machine learning and artificial intelligence products.',
+      descBullets: [
+        'Improve the quality of information shared online.',
+        'Research and evaluate posts for Social Media for accuracy',
       ],
     },
     {
       role: 'Front-End Developer',
-      company: 'Quora',
-      companylogo: require('./assets/images/quoraLogo.png'),
-      date: 'May 2017 – May 2018',
+      company: 'Implemented.Today',
+      companylogo: require('./assets/images/imptodLogo.png'),
+      date: 'Feb 2020 – Jun 2020',
       desc:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    },
+        'Implemented Today helps organizations to select and implement business systems. We focus on Customer Relationship Management (CRM), Business Intelligence (BI), and Project Management (PM). We also help our client to set and properly manage Office 365 and Azure.',
+        descBullets: [
+          'Develop CRM systems with React and Angular.',
+          'Use Firebase for the backend.',
+          'Use Google Cloud platforms.'
+        ],
+      },
     {
-      role: 'Software Engineer Intern',
-      company: 'Airbnb',
-      companylogo: require('./assets/images/airbnbLogo.png'),
-      date: 'Jan 2015 – Sep 2015',
+      role: 'Technical Support Specialist',
+      company: 'Transworld Systems Inc. (TSI)',
+      companylogo: require('./assets/images/tsiLogo.png'),
+      date: 'Mar 2015 – Dec 2019',
       desc:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    },
+        'TSI is a market-leading provider of accounts receivable management and student loan servicing solutions.',
+        descBullets: [
+          'Identify software and hardware solutions.',
+          'Assist with password resets and new employee credentials.',
+          'Diagnose and repair issues.'
+        ],
+      },
   ],
 };
 
@@ -198,7 +213,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: 'saadpasta', // Change to your github username to view your profile in Contact Section.
+  githubUserName: 'Tobias2023', // Change to your github username to view your profile in Contact Section.
   showGithubProfile: 'true', // Set true or false to show Contact profile using Github, defaults to true
   display: true, // Set false to hide this section, defaults to true
 };
@@ -218,7 +233,7 @@ const bigProjects = {
       link: 'http://nextu.se/',
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -280,7 +295,7 @@ const achievementSection = {
       ],
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -293,19 +308,19 @@ const blogSection = {
   blogs: [
     {
       url:
-        'https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae',
+        'Url To Blog Post',
       title: 'Win a Google Assistant Tshirt and $200 in Google Cloud Credits',
       description:
         'Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?',
     },
     {
-      url: 'https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e',
+      url: 'Url To Blog Post',
       title: 'Why REACT is The Best?',
       description:
         'React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.',
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -324,7 +339,7 @@ const talkSection = {
       event_url: 'https://www.facebook.com/events/2339906106275053/',
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -337,21 +352,21 @@ const podcastSection = {
   podcast: [
     'https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo',
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji('Contact Me ☎️'),
   subtitle:
     'Discuss a project or just want to say hi? My Inbox is open for all.',
-  number: '+92-3243454077',
-  emailAddress: 'saadpasta70@gmail.com',
+  number: '+1-614-398-2077',
+  emailAddress: 'tobiascodes12@gmail.com',
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: 'twitter', //Replace "twitter" with your twitter username without @
+  userName: 'tobiascodes12', //Replace "twitter" with your twitter username without @
   display: true, // Set true to display this section, defaults to false
 };
 
