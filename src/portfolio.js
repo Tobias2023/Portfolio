@@ -25,6 +25,7 @@ const socialMediaLinks = {
   github: 'https://github.com/Tobias2023',
   linkedin: 'https://www.linkedin.com/in/tobias-scott-he-him-b3572751/',
   gmail: 'tobiascodes12@gmail.com',
+  twitter: 'https://twitter.com/TobiasCodes12',
   // gitlab: 'https://gitlab.com',
   // facebook: 'https://www.facebook.com',
   // medium: 'https://medium.com/,
@@ -125,6 +126,20 @@ const educationInfo = {
         'Object oriented design',
         'Mathematics (statistics)',
       ],
+    },
+    {
+      schoolName: 'Southern New Hampshire University',
+      logo: require('./assets/images/SNHU_logo.png'),
+      subHeader: 'Bachelor of Science in Computer Science',
+      duration: 'Feb 2021 (Current)',
+      desc: 'Some of my coursework includes:',
+      descBullets: [
+        'Data Structures and Algorithms',
+        'Computer Architecture',
+        'Database Systems',
+        'Analysis of Algorithms',
+        'UNIX Programming',
+      ],
     }
   ],
 };
@@ -140,11 +155,11 @@ const techStack = {
     },
     {
       Stack: 'Backend',
-      progressPercentage: '70%',
+      progressPercentage: '80%',
     },
     {
-      Stack: 'Programming',
-      progressPercentage: '60%',
+      Stack: 'System Administration',
+      progressPercentage: '70%',
     },
   ],
   displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
